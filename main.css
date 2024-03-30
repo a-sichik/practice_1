@@ -1,0 +1,891 @@
+* {
+  font-family: "Fira Sans", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0f0e0e;
+}
+
+.first {
+  display: flex;
+  justify-content: space-between;
+  background-image: url("fon.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+.first .left {
+  width: 147px;
+  border-right: 2px solid rgb(113, 113, 113);
+}
+.first .logo {
+  width: 405px;
+  margin-bottom: 75px;
+  margin-top: -2.5px;
+  margin-left: -2.25px;
+}
+.first .menu .shtuchka {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+.first .menu .shtuchka .surf {
+  margin-left: 42px;
+}
+.first .menu .shtuchka .travel {
+  margin-left: 47.5px;
+}
+.first .menu .shtuchka .sleep {
+  margin-left: 45px;
+}
+.first .menu .shtuchka .shop {
+  width: 25px;
+  margin-left: 62.5px;
+}
+.first .menu p {
+  margin-top: 10px;
+  text-transform: none;
+  font-weight: 200;
+  font-size: 12.5px;
+  text-align: center;
+}
+.first .menu img {
+  width: 60px;
+  margin-left: 10px;
+}
+.first .menu .text_sleep {
+  margin-top: -8.75px;
+}
+.first .menu .text_shop {
+  margin-top: -11.25px;
+}
+.first .search {
+  width: 22.5px;
+  margin-left: 60px;
+  margin-top: 17.5px;
+}
+.first .date {
+  margin-bottom: 17.5px;
+}
+.first .date .day {
+  font-weight: 800;
+  font-size: 62.5px;
+  margin-left: 37.5px;
+  margin-top: 20px;
+  padding: 0;
+}
+.first .date .month_year {
+  font-size: 17.5px;
+  display: inline;
+  font-weight: 400;
+  margin-left: 33.75px;
+  margin-top: -15px;
+}
+.first .town {
+  display: inline;
+}
+.first .town img {
+  width: 10px;
+  margin-left: 33.75px;
+  margin-top: 25px;
+}
+.first .town p {
+  display: inline;
+  font-size: 12.5px;
+  margin-left: 3.75px;
+  font-weight: 40;
+}
+.first .map img {
+  width: 925px;
+  display: table;
+  clear: both;
+}
+.first .map .strelochki img {
+  width: 20px;
+  position: absolute;
+  top: 45px;
+  right: 100px;
+}
+.first .map .strelochki .vpravo {
+  right: 62.5px;
+}
+.first .text_block {
+  margin-right: 50px;
+}
+.first .text_block .line_main {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.first .text_block .line_1 {
+  width: 75px;
+  height: 0.75px;
+  background-color: rgb(146, 146, 146);
+  margin-right: 20px;
+  float: right;
+}
+.first .text_block .line_text {
+  font-size: 20px;
+  letter-spacing: 6.25px;
+  color: grey;
+  text-align: right;
+}
+.first .text_block .big {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: right;
+  font-size: 62.5px;
+  font-weight: 750;
+}
+.first .text_block .mid {
+  margin-top: 10px;
+  text-align: right;
+  font-size: 40px;
+  font-weight: 600;
+}
+.first .text_block img {
+  width: 22.5px;
+  margin-top: 25px;
+  float: right;
+}
+.first .bottom {
+  margin-top: 137.5px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.first .bottom .down {
+  width: 25px;
+  height: 25px;
+  margin-left: -375px;
+}
+.first .bottom .four {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 75px;
+}
+.first .bottom .four .shtukovina {
+  margin-right: 37.5px;
+}
+.first .bottom .four .shtukovina .line {
+  background-color: #fff;
+  width: 200px;
+  height: 3.75px;
+}
+.first .bottom .four .shtukovina .text {
+  margin-top: 7.5px;
+  display: flex;
+  justify-content: space-between;
+}
+.first .bottom .four .shtukovina .text .number span {
+  font-size: 17.5px;
+  font-weight: 500;
+}
+.first .bottom .four .shtukovina .text .shore {
+  margin-top: 2.5px;
+}
+.first .bottom .four .shtukovina .text .shore span {
+  font-size: 15px;
+  font-weight: 100;
+}
+.first .bottom .four .shtukovina:hover {
+  cursor: pointer;
+}
+.first .bottom .four .shtukovina:hover .line {
+  background-color: #00ffe1;
+}
+
+.second {
+  background-color: #0f0e0e;
+  margin-bottom: 800px;
+}
+.second .background {
+  background-image: url("dot_map.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: top 275px left 150px;
+}
+.second .background .surf {
+  position: relative;
+  margin-left: 0px;
+  width: 375px;
+  vertical-align: top;
+  margin-top: 175px;
+}
+.second .background .point {
+  width: 125px;
+  float: right;
+  margin-top: 150px;
+}
+.second .background .cordinates {
+  width: 20px;
+  margin-right: 5px;
+  margin-top: 25px;
+  margin-left: 1375px;
+}
+.second .text_block .line_green {
+  position: absolute;
+  background-color: #00ffe1;
+  width: 70px;
+  height: 3px;
+  margin-left: 320px;
+}
+.second .text_block p {
+  color: #fff;
+  font-size: 75px;
+  font-weight: 800;
+  margin-top: -780px;
+  margin-left: 225px;
+}
+.second .text_point .line_grey {
+  float: left;
+  margin-left: 1020px;
+  margin-top: 10px;
+  background-color: #737373;
+  width: 75px;
+  height: 1px;
+}
+.second .text_point .location {
+  margin-right: -40px;
+  float: right;
+  font-size: 20px;
+  letter-spacing: 7px;
+  color: grey;
+  white-space: nowrap;
+}
+.second .text_point .town {
+  margin-right: -280px;
+  margin-top: 40px;
+  float: right;
+  font-size: 30px;
+  font-weight: 650;
+}
+.second .strelochki img {
+  width: 20px;
+  margin-top: 100px;
+}
+.second .strelochki .vpravo {
+  margin-left: 25px;
+}
+.second .strelochki .vlevo {
+  margin-left: 1325px;
+}
+
+.third {
+  height: 750px;
+  margin-bottom: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.third img {
+  width: 400px;
+  position: absolute;
+}
+.third .second {
+  margin-left: 375px;
+  margin-top: -30px;
+}
+.third .third {
+  margin-left: 750px;
+  margin-top: 30px;
+}
+.third .fourth {
+  height: 760px;
+  margin-left: 1118.75px;
+  margin-top: -30px;
+}
+.third .button {
+  width: 250px;
+  margin-left: 425px;
+  margin-top: 650px;
+}
+.third .button:hover {
+  width: 250px;
+  margin-left: 425px;
+  margin-top: 650px;
+}
+
+.fourth {
+  margin-top: 400px;
+  background-image: url("Travel Image Copy.png");
+  background-size: 1300px;
+  height: 900px;
+  margin-bottom: 50px;
+  background-repeat: no-repeat;
+}
+.fourth .travel_big {
+  margin-top: -100px;
+}
+.fourth .travel_small .line_green {
+  position: absolute;
+  background-color: #00ffe1;
+  width: 70px;
+  height: 3px;
+  margin-left: 420px;
+  margin-top: -180px;
+}
+.fourth .travel_small span {
+  position: absolute;
+  font-size: 75px;
+  font-weight: 700;
+  margin-top: -180px;
+  margin-left: 245px;
+}
+.fourth .right_text_block {
+  float: right;
+  margin-top: 70px;
+}
+.fourth .right_text_block .grey {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-bottom: 20px;
+  margin-right: 50px;
+}
+.fourth .right_text_block .grey_line {
+  background-color: #737373;
+  width: 75px;
+  height: 1px;
+}
+.fourth .right_text_block .grey_text {
+  margin-left: 30px;
+  font-size: 23px;
+  letter-spacing: 7px;
+  color: grey;
+  white-space: nowrap;
+  font-weight: normal;
+}
+.fourth .right_text_block .white_text {
+  font-size: 30px;
+  font-weight: 650;
+  margin-right: 55px;
+}
+.fourth .right_text_block .strelochki {
+  margin-right: 55px;
+  justify-content: end;
+  display: flex;
+  margin-top: 30px;
+}
+.fourth .right_text_block .strelochki img {
+  width: 20px;
+}
+.fourth .right_text_block .strelochki .vpravo {
+  margin-left: 25px;
+}
+.fourth .left_text_block {
+  margin-top: 600px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.fourth .left_text_block .left {
+  border: none;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.fourth .left_text_block .left .grey {
+  width: 250px;
+  display: flex;
+  align-items: center;
+}
+.fourth .left_text_block .left .grey_lin {
+  background-color: #737373;
+  width: 80px;
+  height: 2px;
+}
+.fourth .left_text_block .left .grey_text {
+  font-size: 23px;
+  letter-spacing: 7px;
+  color: grey;
+  white-space: nowrap;
+  font-weight: normal;
+  margin-right: 20px;
+}
+.fourth .left_text_block .left .nadpis {
+  display: flex;
+  justify-content: space-between;
+}
+.fourth .left_text_block .left .nadpis .white_text {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 650;
+  white-space: nowrap;
+}
+.fourth .left_text_block .left .nadpis .virgin {
+  margin-left: 30px;
+}
+.fourth .left_text_block .plane {
+  width: 700px;
+  height: 400px;
+  margin-top: -100px;
+}
+.fourth .columns {
+  margin-left: 120px;
+  margin-top: 100px;
+  display: flex;
+}
+.fourth .columns_shtuka {
+  display: flex;
+  height: 195px;
+  justify-content: center;
+}
+.fourth .columns_shtuka .vertical {
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+  font-size: 15px;
+  letter-spacing: 7px;
+  color: grey;
+  height: 22px;
+  white-space: nowrap;
+  margin-bottom: 0;
+}
+.fourth .columns_shtuka .horizontal {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 650;
+}
+.fourth .columns_shtuka:first-child .vertical {
+  margin-top: 70px;
+  margin-left: 50px;
+}
+.fourth .columns_shtuka:first-child .horizontal {
+  margin-left: -60px;
+}
+.fourth .columns_shtuka:nth-child(2) .vertical {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.fourth .columns_shtuka:nth-child(2) .horizontal {
+  margin-left: -40px;
+}
+.fourth .columns_shtuka:nth-child(3) .vertical {
+  margin-top: 67px;
+  margin-left: 40px;
+}
+.fourth .columns_shtuka:nth-child(3) .horizontal {
+  margin-left: -60px;
+  white-space: nowrap;
+}
+.fourth .columns_shtuka:last-child .vertical {
+  margin-top: 38px;
+  margin-left: 80px;
+}
+.fourth .columns_shtuka:last-child .horizontal {
+  margin-left: -30px;
+  white-space: nowrap;
+}
+.fourth .columns_shtuka:last-child .horizontal_small {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: grey;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-left: -95px;
+  width: 70px;
+  white-space: nowrap;
+}
+.fourth .columns_shtuka:last-child .mohito {
+  width: 280px;
+  height: 500px;
+  margin-top: 70px;
+}
+.fourth .button {
+  width: 300px;
+  margin-top: 30px;
+  margin-left: 590px;
+}
+
+.fifth {
+  margin-top: 900px;
+  background-image: url("sleep background.png");
+  background-size: 1300px;
+  height: 900px;
+  margin-bottom: 50px;
+  background-repeat: no-repeat;
+}
+.fifth .sleep_big {
+  margin-top: -100px;
+}
+.fifth .sleep_small .line_green {
+  position: absolute;
+  background-color: #00ffe1;
+  width: 70px;
+  height: 3px;
+  margin-left: 380px;
+  margin-top: -180px;
+}
+.fifth .sleep_small span {
+  position: absolute;
+  font-size: 75px;
+  font-weight: 700;
+  margin-top: -180px;
+  margin-left: 245px;
+}
+.fifth .right_text_block {
+  float: right;
+  margin-top: 70px;
+}
+.fifth .right_text_block .grey {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-bottom: 20px;
+  margin-right: 50px;
+}
+.fifth .right_text_block .grey_line {
+  background-color: #737373;
+  width: 75px;
+  height: 1px;
+}
+.fifth .right_text_block .grey_text {
+  margin-left: 30px;
+  font-size: 23px;
+  letter-spacing: 7px;
+  color: grey;
+  white-space: nowrap;
+  font-weight: normal;
+}
+.fifth .right_text_block .white_text {
+  font-size: 30px;
+  font-weight: 650;
+  margin-right: 55px;
+}
+.fifth .right_text_block .strelochki {
+  margin-right: 55px;
+  justify-content: end;
+  display: flex;
+  margin-top: 30px;
+}
+.fifth .right_text_block .strelochki img {
+  width: 20px;
+}
+.fifth .right_text_block .strelochki .vpravo {
+  margin-left: 25px;
+}
+.fifth .left_text_block {
+  margin-top: 600px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.fifth .left_text_block .left {
+  border: none;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+.fifth .left_text_block .left .grey {
+  width: 250px;
+  display: flex;
+  align-items: center;
+}
+.fifth .left_text_block .left .grey_lin {
+  background-color: #737373;
+  width: 80px;
+  height: 1px;
+}
+.fifth .left_text_block .left .grey_text {
+  font-size: 23px;
+  letter-spacing: 7px;
+  color: grey;
+  white-space: nowrap;
+  font-weight: normal;
+  margin-right: 20px;
+}
+.fifth .left_text_block .left .nadpis {
+  display: flex;
+  justify-content: space-between;
+}
+.fifth .left_text_block .left .nadpis .white_text {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 650;
+  white-space: nowrap;
+}
+.fifth .left_text_block .left .nadpis .stars {
+  margin-top: 7px;
+  margin-left: 20px;
+}
+.fifth .left_text_block .gamak {
+  width: 500px;
+  height: 300px;
+  margin-top: -100px;
+  position: relative;
+}
+.fifth .left_text_block .flower_small {
+  position: absolute;
+  margin-left: 1361px;
+  margin-top: 70px;
+}
+.fifth .columns {
+  margin-left: 160px;
+  margin-top: 100px;
+  display: flex;
+}
+.fifth .columns_shtuka {
+  display: flex;
+  height: 195px;
+  justify-content: center;
+}
+.fifth .columns_shtuka .vertical {
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+  font-size: 15px;
+  letter-spacing: 7px;
+  color: grey;
+  height: 22px;
+  white-space: nowrap;
+  margin-bottom: 0;
+}
+.fifth .columns_shtuka .horizontal {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 650;
+}
+.fifth .columns_shtuka:first-child .vertical {
+  margin-top: 35px;
+  margin-left: 50px;
+}
+.fifth .columns_shtuka:first-child .horizontal {
+  margin-left: -20px;
+}
+.fifth .columns_shtuka:nth-child(2) .vertical {
+  margin-top: 70px;
+  margin-left: 50px;
+}
+.fifth .columns_shtuka:nth-child(2) .horizontal {
+  margin-left: -60px;
+  white-space: nowrap;
+}
+.fifth .columns_shtuka:nth-child(2) .znaki {
+  width: 50px;
+  font-size: 35px;
+  font-weight: 350;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: -50px;
+}
+.fifth .columns_shtuka:nth-child(2) .plus:hover {
+  color: #00ffe1;
+  cursor: pointer;
+}
+.fifth .columns_shtuka:nth-child(2) .minus:hover {
+  color: #00ffe1;
+  cursor: pointer;
+}
+.fifth .columns_shtuka:nth-child(3) .vertical {
+  margin-top: 67px;
+  margin-left: 40px;
+}
+.fifth .columns_shtuka:nth-child(3) .horizontal {
+  margin-left: -60px;
+  white-space: nowrap;
+}
+.fifth .columns_shtuka:nth-child(3) .znaki {
+  width: 50px;
+  font-size: 35px;
+  font-weight: 350;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: -50px;
+}
+.fifth .columns_shtuka:nth-child(3) .plus:hover {
+  color: #00ffe1;
+  cursor: pointer;
+}
+.fifth .columns_shtuka:nth-child(3) .minus:hover {
+  color: #00ffe1;
+  cursor: pointer;
+}
+.fifth .columns_shtuka:last-child .vertical {
+  margin-top: 38px;
+  margin-left: 80px;
+}
+.fifth .columns_shtuka:last-child .horizontal {
+  margin-left: -30px;
+  white-space: nowrap;
+}
+.fifth .columns_shtuka:last-child .horizontal_small {
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: grey;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-left: -95px;
+  width: 70px;
+  white-space: nowrap;
+}
+.fifth .columns_shtuka:last-child .flower_big {
+  width: 180px;
+  height: 230px;
+  margin-top: 70px;
+  margin-left: 107px;
+}
+.fifth .button {
+  width: 300px;
+  margin-top: 50px;
+  margin-left: 590px;
+}
+
+.sixth {
+  margin-top: 900px;
+  background-image: url("Shop Image.png");
+  background-size: 1300px;
+  background-position: top 100px left 280px;
+  height: 900px;
+  margin-bottom: 50px;
+  background-repeat: no-repeat;
+}
+.sixth .shop_big {
+  margin-top: -400px;
+}
+.sixth .shop_small .line_green {
+  position: absolute;
+  background-color: #00ffe1;
+  width: 70px;
+  height: 3px;
+  margin-left: 380px;
+  margin-top: -180px;
+}
+.sixth .shop_small span {
+  position: absolute;
+  font-size: 75px;
+  font-weight: 700;
+  margin-top: -180px;
+  margin-left: 260px;
+}
+.sixth .content {
+  display: flex;
+  justify-content: space-between;
+}
+.sixth .content .right_block {
+  margin-left: 150px;
+  margin-top: 150px;
+}
+.sixth .content .right_block .grey_text {
+  font-size: 20px;
+  letter-spacing: 7px;
+  color: grey;
+  white-space: nowrap;
+  font-weight: normal;
+}
+.sixth .content .right_block .grey_line {
+  background-color: #737373;
+  width: 75px;
+  height: 1px;
+  margin-left: 110px;
+  margin-top: -15px;
+}
+.sixth .content .right_block .white_text {
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 800;
+}
+.sixth .content .right_block .stars {
+  margin-left: -20px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.sixth .content .right_block .price {
+  margin-top: -10px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.sixth .content .right_block .button_drop_in {
+  width: 200px;
+  margin-top: 100px;
+}
+.sixth .content .mid_block {
+  margin-right: auto;
+  margin-left: 240px;
+}
+.sixth .content .left_block .strelochki {
+  float: right;
+  margin-right: 100px;
+}
+.sixth .content .left_block .strelochki .vpravo {
+  margin-left: 25px;
+}
+.sixth .content .left_block .low_point {
+  margin-top: 195px;
+}
+.sixth .content .left_block .low_point_line {
+  position: absolute;
+  background-color: #ffffff;
+  width: 105px;
+  height: 1px;
+  margin-left: -140px;
+  margin-top: 15px;
+}
+.sixth .content .left_block .low_point_text {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 170px;
+  margin-right: 300px;
+}
+.sixth .content .left_block .extras {
+  margin-left: 30px;
+  margin-top: 200px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.sixth .content .left_block .products {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.sixth .content .left_block .products .sex_wax {
+  margin-left: 40px;
+}
+.sixth .content .left_block .products .sex_wax .text_grey {
+  margin-left: -10px;
+  margin-top: 20px;
+  font-size: 20px;
+  letter-spacing: 7px;
+  color: grey;
+  white-space: nowrap;
+  font-weight: normal;
+}
+.sixth .content .left_block .products .sex_wax .price {
+  margin-top: 15px;
+  font-size: 17px;
+  font-weight: 700;
+  margin-left: 25px;
+}
+.sixth .content .left_block .products .pura_vida {
+  margin-top: 23px;
+  margin-right: 100px;
+}
+.sixth .content .left_block .products .pura_vida .text_grey {
+  margin-left: -10px;
+  margin-top: 20px;
+  font-size: 20px;
+  letter-spacing: 7px;
+  color: grey;
+  white-space: nowrap;
+  font-weight: normal;
+}
+.sixth .content .left_block .products .pura_vida .price {
+  margin-top: 15px;
+  font-size: 17px;
+  font-weight: 700;
+  margin-left: 40px;
+}
+.sixth .button_go_surf {
+  margin-top: 300px;
+  margin-left: 670px;
+}
+.sixth .footer {
+  margin-left: 640px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}/*# sourceMappingURL=main.css.map */
